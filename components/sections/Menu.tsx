@@ -27,7 +27,7 @@ export default function Menu() {
             key={c.id}
             type="button"
             onClick={() => setActive(c.id)}
-            aria-selected={c.id === active}
+            aria-pressed={c.id === active}
             className={`rounded-full px-5 py-2 text-sm font-semibold transition ${
               c.id === active
                 ? "bg-[var(--color-forest)] text-[var(--color-cream)]"
