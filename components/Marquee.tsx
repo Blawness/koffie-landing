@@ -7,7 +7,7 @@ export default function Marquee({ items }: { items: string[] }) {
   const loop = [...items, ...items];
 
   return (
-    <div className="overflow-x-auto py-4">
+    <div className="overflow-hidden py-4">
       <motion.div
         className="flex w-max items-center whitespace-nowrap"
         animate={reduceMotion ? undefined : { x: ["0%", "-50%"] }}

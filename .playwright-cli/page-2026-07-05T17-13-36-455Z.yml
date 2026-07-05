@@ -1,0 +1,156 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - navigation [ref=e4]:
+        - link "Menu" [ref=e5] [cursor=pointer]:
+          - /url: /menu
+        - link "Unggulan" [ref=e6] [cursor=pointer]:
+          - /url: /#unggulan
+        - link "Kunjungi" [ref=e7] [cursor=pointer]:
+          - /url: /#kunjungi
+        - link "FAQ" [ref=e8] [cursor=pointer]:
+          - /url: /#faq
+      - link "Koffie Home beranda" [ref=e9] [cursor=pointer]:
+        - /url: /
+        - img "Logo Koffie Home" [ref=e10]
+      - link "Kontak" [ref=e12] [cursor=pointer]:
+        - /url: /#kontak
+  - main [ref=e13]:
+    - generic [ref=e14]:
+      - generic [ref=e15]:
+        - generic [ref=e16]: "#KopiNusantara#NgopiSantai#FreshRoast#CoffeeAndKitchen"
+        - heading "Waktunya Ngopi" [level=1] [ref=e17]
+        - generic [ref=e18]:
+          - generic [ref=e19]:
+            - paragraph [ref=e20]: Koffie Home menyeduh kopi specialty dari biji pilihan Nusantara dan menyajikan hidangan dapur yang menghangatkan. Setiap cangkir dibuat segar, penuh cerita.
+            - link "Mulai Pesan" [ref=e21] [cursor=pointer]:
+              - /url: "#menu"
+          - generic [ref=e22]:
+            - img "Segelas kopi susu dingin di atas meja kafe" [ref=e23]
+            - generic [ref=e24]: KOFFIE HOME · COFFEE & KITCHEN · EST. 2020
+      - generic [ref=e27]:
+        - generic [ref=e28]: Kopi Susu Gula Aren✦
+        - generic [ref=e29]: Es Kopi Signature✦
+        - generic [ref=e30]: Matcha Latte✦
+        - generic [ref=e31]: Nasi Goreng Kampung✦
+        - generic [ref=e32]: Croissant Butter✦
+        - generic [ref=e33]: Cold Brew✦
+        - generic [ref=e34]: Kopi Susu Gula Aren✦
+        - generic [ref=e35]: Es Kopi Signature✦
+        - generic [ref=e36]: Matcha Latte✦
+        - generic [ref=e37]: Nasi Goreng Kampung✦
+        - generic [ref=e38]: Croissant Butter✦
+        - generic [ref=e39]: Cold Brew✦
+    - generic [ref=e40]:
+      - generic [ref=e41]:
+        - heading "Jelajahi Menu" [level=2] [ref=e42]
+        - text: /2025
+      - paragraph [ref=e43]: Cicipi menu andalan kami — dari signature series hingga hidangan dapur. Lihat daftar lengkapnya di halaman menu.
+      - generic [ref=e44]:
+        - article [ref=e45]:
+          - img "Es kopi signature dengan gula aren" [ref=e46]
+          - generic [ref=e47]:
+            - generic [ref=e48]:
+              - heading "Es Kopi Signature" [level=3] [ref=e49]
+              - text: Rp 26.000
+            - paragraph [ref=e50]: Racikan khas Koffie Home dengan gula aren dan susu segar.
+        - article [ref=e51]:
+          - img "Segelas kopi susu gula aren" [ref=e52]
+          - generic [ref=e53]:
+            - generic [ref=e54]:
+              - heading "Kopi Susu Gula Aren" [level=3] [ref=e55]
+              - text: Rp 25.000
+            - paragraph [ref=e56]: Perpaduan espresso, susu segar, dan gula aren pilihan.
+        - article [ref=e57]:
+          - img "Cold brew dalam botol" [ref=e58]
+          - generic [ref=e59]:
+            - generic [ref=e60]:
+              - heading "Cold Brew Botolan" [level=3] [ref=e61]
+              - text: Rp 30.000
+            - paragraph [ref=e62]: Kopi seduh dingin 12 jam, ringan dan menyegarkan.
+      - link "Lihat Menu Lengkap" [ref=e64] [cursor=pointer]:
+        - /url: /menu
+    - generic [ref=e66]:
+      - heading "Menu Unggulan" [level=2] [ref=e67]
+      - generic [ref=e68]:
+        - article [ref=e69]:
+          - img "Segelas kopi susu gula aren" [ref=e70]
+          - heading "Kopi Susu Gula Aren" [level=3] [ref=e71]
+          - paragraph [ref=e72]: Menu paling dicari, manis pas dan creamy.
+          - generic [ref=e73]:
+            - generic "4.9 dari 5" [ref=e74]: ★★★★★
+            - generic [ref=e75]: 4.9/5 · 2.540 ulasan
+        - article [ref=e76]:
+          - img "Segelas matcha latte" [ref=e77]
+          - heading "Matcha Latte" [level=3] [ref=e78]
+          - paragraph [ref=e79]: Matcha premium yang lembut dan menyegarkan.
+          - generic [ref=e80]:
+            - generic "4.8 dari 5" [ref=e81]: ★★★★★
+            - generic [ref=e82]: 4.8/5 · 1.320 ulasan
+        - article [ref=e83]:
+          - img "Sepiring nasi goreng kampung" [ref=e84]
+          - heading "Nasi Goreng Kampung" [level=3] [ref=e85]
+          - paragraph [ref=e86]: Favorit dapur dengan cita rasa rumahan.
+          - generic [ref=e87]:
+            - generic "4.7 dari 5" [ref=e88]: ★★★★★
+            - generic [ref=e89]: 4.7/5 · 980 ulasan
+    - generic [ref=e91]:
+      - generic [ref=e92]:
+        - paragraph [ref=e93]: Gunakan
+        - heading "Kopi Terbaik" [level=2] [ref=e94]
+        - paragraph [ref=e95]: Biji arabika premium, di-roasting segar setiap minggu, dan diracik dengan rempah pilihan untuk cita rasa yang tak terlupakan.
+        - link "Selengkapnya" [ref=e96] [cursor=pointer]:
+          - /url: "#kunjungi"
+      - img "Suasana dapur dan interior hangat Koffie Home" [ref=e97]
+    - generic [ref=e99]:
+      - heading "Kunjungi Kami" [level=2] [ref=e100]
+      - generic [ref=e101]:
+        - figure "Koffie Home Kenanga Outlet utama dengan ruang kerja nyaman." [ref=e102]:
+          - img "Tampak depan outlet Koffie Home Kenanga" [ref=e103]
+          - generic [ref=e104]:
+            - paragraph [ref=e105]: Koffie Home Kenanga
+            - paragraph [ref=e106]: Outlet utama dengan ruang kerja nyaman.
+        - figure "Koffie Home Dago Suasana asri dengan area outdoor." [ref=e107]:
+          - img "Interior outlet Koffie Home Dago" [ref=e108]
+          - generic [ref=e109]:
+            - paragraph [ref=e110]: Koffie Home Dago
+            - paragraph [ref=e111]: Suasana asri dengan area outdoor.
+        - figure "Koffie Home Riau Spot favorit untuk nongkrong sore." [ref=e112]:
+          - img "Storefront outlet Koffie Home Riau" [ref=e113]
+          - generic [ref=e114]:
+            - paragraph [ref=e115]: Koffie Home Riau
+            - paragraph [ref=e116]: Spot favorit untuk nongkrong sore.
+        - figure "Koffie Home Braga Nuansa klasik di pusat kota." [ref=e117]:
+          - img "Interior klasik outlet Koffie Home Braga" [ref=e118]
+          - generic [ref=e119]:
+            - paragraph [ref=e120]: Koffie Home Braga
+            - paragraph [ref=e121]: Nuansa klasik di pusat kota.
+    - generic [ref=e123]:
+      - heading "Pertanyaan Umum" [level=2] [ref=e124]
+      - generic [ref=e125]:
+        - generic [ref=e126]:
+          - button "Jam berapa Koffie Home buka?" [expanded] [ref=e127]: Jam berapa Koffie Home buka?+
+          - paragraph [ref=e129]: Kami buka setiap hari pukul 08.00 hingga 22.00 WIB di seluruh outlet.
+        - button "Apakah menerima pesan-antar?" [ref=e131]: Apakah menerima pesan-antar?+
+        - button "Bisakah memesan tempat untuk acara?" [ref=e133]: Bisakah memesan tempat untuk acara?+
+        - button "Dari mana biji kopi berasal?" [ref=e135]: Dari mana biji kopi berasal?+
+        - button "Apakah tersedia menu makanan?" [ref=e137]: Apakah tersedia menu makanan?+
+  - contentinfo [ref=e138]:
+    - generic [ref=e139]:
+      - generic [ref=e140]:
+        - img "Logo Koffie Home" [ref=e141]
+        - paragraph [ref=e142]: Koffie Home — Coffee & Kitchen
+      - generic [ref=e143]:
+        - heading "Kunjungi" [level=3] [ref=e144]
+        - paragraph [ref=e145]: Jl. Kenanga No. 12, Bandung, Jawa Barat
+        - paragraph [ref=e146]: Setiap hari, 08.00 - 22.00 WIB
+      - generic [ref=e147]:
+        - heading "Terhubung" [level=3] [ref=e148]
+        - link "Hubungi via WhatsApp" [ref=e149] [cursor=pointer]:
+          - /url: https://wa.me/6281234567890
+        - generic [ref=e150]:
+          - link "Instagram" [ref=e151] [cursor=pointer]:
+            - /url: "#"
+          - link "TikTok" [ref=e152] [cursor=pointer]:
+            - /url: "#"
+    - paragraph [ref=e153]: © 2026 Koffie Home. Seluruh hak cipta dilindungi.
