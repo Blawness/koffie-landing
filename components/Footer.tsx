@@ -42,11 +42,21 @@ export default function Footer() {
             {contact.whatsappLabel}
           </a>
           <div className="mt-4 flex gap-4">
-            <a href="#" className="text-[var(--color-cream)]/80 hover:text-[var(--color-marigold)]">
+            <a
+              href={contact.instagram}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[var(--color-cream)]/80 hover:text-[var(--color-marigold)]"
+            >
               Instagram
             </a>
-            <a href="#" className="text-[var(--color-cream)]/80 hover:text-[var(--color-marigold)]">
-              TikTok
+            <a
+              href={contact.facebook}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[var(--color-cream)]/80 hover:text-[var(--color-marigold)]"
+            >
+              Facebook
             </a>
           </div>
         </div>

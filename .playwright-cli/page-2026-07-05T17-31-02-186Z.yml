@@ -1,0 +1,69 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - navigation [ref=e4]:
+        - link "Menu" [ref=e5] [cursor=pointer]:
+          - /url: /menu
+        - link "Unggulan" [ref=e6] [cursor=pointer]:
+          - /url: /#unggulan
+        - link "Kunjungi" [ref=e7] [cursor=pointer]:
+          - /url: /#kunjungi
+        - link "FAQ" [ref=e8] [cursor=pointer]:
+          - /url: /#faq
+      - link "Koffie Home beranda" [ref=e9] [cursor=pointer]:
+        - /url: /
+        - img "Logo Koffie Home" [ref=e10]
+      - link "Kontak" [ref=e12] [cursor=pointer]:
+        - /url: /#kontak
+  - main [ref=e13]:
+    - generic [ref=e14]:
+      - generic [ref=e15]:
+        - heading "Jelajahi Menu" [level=2] [ref=e16]
+        - generic [ref=e17]: /2025
+      - generic [ref=e18]:
+        - button "Signature" [pressed] [ref=e19]
+        - button "Kopi" [ref=e20]
+        - button "Non-Kopi" [ref=e21]
+        - button "Makanan" [ref=e22]
+        - button "Dessert" [ref=e23]
+      - generic [ref=e24]:
+        - article [ref=e25]:
+          - img "Es kopi aren house blend" [ref=e27]
+          - generic [ref=e28]:
+            - generic [ref=e29]:
+              - heading "Kopi Aren House Blend" [level=3] [ref=e30]
+              - generic [ref=e31]: Rp 28.000
+            - paragraph [ref=e32]: "Racikan khas Koffie Home: blend arabika & robusta dengan gula aren dan susu segar."
+        - article [ref=e33]:
+          - img "Segelas signature milk coffee Malvern" [ref=e35]
+          - generic [ref=e36]:
+            - generic [ref=e37]:
+              - heading "Malvern" [level=3] [ref=e38]
+              - generic [ref=e39]: Rp 32.000
+            - paragraph [ref=e40]: Signature milk coffee bertekstur lembut dengan sentuhan manis seimbang.
+        - article [ref=e41]:
+          - img "Signature coffee Home dalam gelas" [ref=e43]
+          - generic [ref=e44]:
+            - generic [ref=e45]:
+              - heading "Home" [level=3] [ref=e46]
+              - generic [ref=e47]: Rp 35.000
+            - paragraph [ref=e48]: Kopi signature andalan, karakter bold dan smooth khas Koffie Home.
+  - contentinfo [ref=e49]:
+    - generic [ref=e50]:
+      - generic [ref=e51]:
+        - img "Logo Koffie Home" [ref=e52]
+        - paragraph [ref=e53]: Koffie Home — Coffee & Kitchen
+      - generic [ref=e54]:
+        - heading "Kunjungi" [level=3] [ref=e55]
+        - paragraph [ref=e56]: Jl. Moch. Kahfi II No. 3, Ciganjur, Jagakarsa, Jakarta Selatan 12630
+        - paragraph [ref=e57]: Sen–Kam 09.00–22.00 · Jum 09.00–11.30 & 13.30–23.00 · Sab–Min 09.00–23.00 WIB
+      - generic [ref=e58]:
+        - heading "Terhubung" [level=3] [ref=e59]
+        - link "Hubungi via WhatsApp" [ref=e60] [cursor=pointer]:
+          - /url: https://wa.me/6282288882084
+        - generic [ref=e61]:
+          - link "Instagram" [ref=e62] [cursor=pointer]:
+            - /url: https://www.instagram.com/koffiehome/
+          - link "Facebook" [ref=e63] [cursor=pointer]:
+            - /url: https://www.facebook.com/koffiehomeID/
+    - paragraph [ref=e64]: © 2026 Koffie Home. Seluruh hak cipta dilindungi.

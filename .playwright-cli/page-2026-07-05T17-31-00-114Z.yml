@@ -1,0 +1,227 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - navigation [ref=e4]:
+        - link "Menu" [ref=e5] [cursor=pointer]:
+          - /url: /menu
+        - link "Unggulan" [ref=e6] [cursor=pointer]:
+          - /url: /#unggulan
+        - link "Kunjungi" [ref=e7] [cursor=pointer]:
+          - /url: /#kunjungi
+        - link "FAQ" [ref=e8] [cursor=pointer]:
+          - /url: /#faq
+      - link "Koffie Home beranda" [ref=e9] [cursor=pointer]:
+        - /url: /
+        - img "Logo Koffie Home" [ref=e10]
+      - link "Kontak" [ref=e12] [cursor=pointer]:
+        - /url: /#kontak
+  - main [ref=e13]:
+    - generic [ref=e14]:
+      - generic [ref=e15]:
+        - generic [ref=e16]:
+          - generic [ref=e17]:
+            - generic [ref=e18]: "#KoffieHome"
+            - generic [ref=e19]: "#Jagakarsa"
+            - generic [ref=e20]: "#KopiAren"
+            - generic [ref=e21]: "#CoffeeAndKitchen"
+          - heading "Waktunya Ngopi" [level=1] [ref=e22]
+          - paragraph [ref=e23]: Koffie Home di Jagakarsa, Jakarta Selatan — rumah kedua untuk ngopi dengan Kopi Aren House Blend racikan sendiri dan hidangan dapur ala rumahan. Suasana tenang, hangat, cocok untuk kerja maupun santai.
+          - link "Lihat Menu" [ref=e24] [cursor=pointer]:
+            - /url: "#menu"
+        - generic [ref=e25]:
+          - img "Segelas kopi susu dingin di atas meja kafe" [ref=e27]
+          - generic [ref=e29]: KOFFIE HOME · COFFEE & KITCHEN · JAGAKARSA
+      - generic [ref=e32]:
+        - generic [ref=e33]:
+          - text: Kopi Aren House Blend
+          - generic [ref=e34]: ✦
+        - generic [ref=e35]:
+          - text: Nasi Goreng Kambing
+          - generic [ref=e36]: ✦
+        - generic [ref=e37]:
+          - text: Croffle
+          - generic [ref=e38]: ✦
+        - generic [ref=e39]:
+          - text: Piccolo
+          - generic [ref=e40]: ✦
+        - generic [ref=e41]:
+          - text: Carbonara
+          - generic [ref=e42]: ✦
+        - generic [ref=e43]:
+          - text: Manual Brew
+          - generic [ref=e44]: ✦
+        - generic [ref=e45]:
+          - text: Nasi Ayam Kecombrang
+          - generic [ref=e46]: ✦
+        - generic [ref=e47]:
+          - text: Chicken Wings
+          - generic [ref=e48]: ✦
+        - generic [ref=e49]:
+          - text: Kopi Aren House Blend
+          - generic [ref=e50]: ✦
+        - generic [ref=e51]:
+          - text: Nasi Goreng Kambing
+          - generic [ref=e52]: ✦
+        - generic [ref=e53]:
+          - text: Croffle
+          - generic [ref=e54]: ✦
+        - generic [ref=e55]:
+          - text: Piccolo
+          - generic [ref=e56]: ✦
+        - generic [ref=e57]:
+          - text: Carbonara
+          - generic [ref=e58]: ✦
+        - generic [ref=e59]:
+          - text: Manual Brew
+          - generic [ref=e60]: ✦
+        - generic [ref=e61]:
+          - text: Nasi Ayam Kecombrang
+          - generic [ref=e62]: ✦
+        - generic [ref=e63]:
+          - text: Chicken Wings
+          - generic [ref=e64]: ✦
+    - generic [ref=e65]:
+      - generic [ref=e66]:
+        - heading "Jelajahi Menu" [level=2] [ref=e67]
+        - generic [ref=e68]: /2025
+      - paragraph [ref=e69]: Cicipi menu andalan kami — dari signature series hingga hidangan dapur. Lihat daftar lengkapnya di halaman menu.
+      - generic [ref=e70]:
+        - article [ref=e71]:
+          - img "Es kopi aren house blend" [ref=e73]
+          - generic [ref=e74]:
+            - generic [ref=e75]:
+              - heading "Kopi Aren House Blend" [level=3] [ref=e76]
+              - generic [ref=e77]: Rp 28.000
+            - paragraph [ref=e78]: "Racikan khas Koffie Home: blend arabika & robusta dengan gula aren dan susu segar."
+        - article [ref=e79]:
+          - img "Segelas signature milk coffee Malvern" [ref=e81]
+          - generic [ref=e82]:
+            - generic [ref=e83]:
+              - heading "Malvern" [level=3] [ref=e84]
+              - generic [ref=e85]: Rp 32.000
+            - paragraph [ref=e86]: Signature milk coffee bertekstur lembut dengan sentuhan manis seimbang.
+        - article [ref=e87]:
+          - img "Signature coffee Home dalam gelas" [ref=e89]
+          - generic [ref=e90]:
+            - generic [ref=e91]:
+              - heading "Home" [level=3] [ref=e92]
+              - generic [ref=e93]: Rp 35.000
+            - paragraph [ref=e94]: Kopi signature andalan, karakter bold dan smooth khas Koffie Home.
+      - link "Lihat Menu Lengkap" [ref=e96] [cursor=pointer]:
+        - /url: /menu
+    - generic [ref=e98]:
+      - heading "Menu Unggulan" [level=2] [ref=e99]
+      - generic [ref=e100]:
+        - article [ref=e101]:
+          - img "Es kopi aren house blend" [ref=e103]
+          - heading "Kopi Aren House Blend" [level=3] [ref=e104]
+          - paragraph [ref=e105]: Menu paling dicari, manis pas dan creamy.
+          - generic [ref=e106]:
+            - generic "4.9 dari 5" [ref=e107]:
+              - generic [ref=e108]: ★
+              - generic [ref=e109]: ★
+              - generic [ref=e110]: ★
+              - generic [ref=e111]: ★
+              - generic [ref=e112]: ★
+            - generic [ref=e113]: 4.9/5 · 2.540 ulasan
+        - article [ref=e114]:
+          - img "Sepiring nasi goreng kambing" [ref=e116]
+          - heading "Nasi Goreng Kambing" [level=3] [ref=e117]
+          - paragraph [ref=e118]: Nasi basmati gurih dengan kambing berempah — andalan dapur.
+          - generic [ref=e119]:
+            - generic "4.8 dari 5" [ref=e120]:
+              - generic [ref=e121]: ★
+              - generic [ref=e122]: ★
+              - generic [ref=e123]: ★
+              - generic [ref=e124]: ★
+              - generic [ref=e125]: ★
+            - generic [ref=e126]: 4.8/5 · 1.320 ulasan
+        - article [ref=e127]:
+          - img "Croffle dengan topping manis" [ref=e129]
+          - heading "Croffle" [level=3] [ref=e130]
+          - paragraph [ref=e131]: Croissant-waffle renyah yang bikin balik lagi.
+          - generic [ref=e132]:
+            - generic "4.9 dari 5" [ref=e133]:
+              - generic [ref=e134]: ★
+              - generic [ref=e135]: ★
+              - generic [ref=e136]: ★
+              - generic [ref=e137]: ★
+              - generic [ref=e138]: ★
+            - generic [ref=e139]: 4.9/5 · 980 ulasan
+    - generic [ref=e141]:
+      - generic [ref=e142]:
+        - paragraph [ref=e143]: Gunakan
+        - heading "Kopi Aren House Blend" [level=2] [ref=e144]
+        - paragraph [ref=e145]: Blend arabika & robusta racikan sendiri, dipadu gula aren untuk karakter manis-legit khas Koffie Home. Diseduh segar setiap gelas.
+        - link "Selengkapnya" [ref=e146] [cursor=pointer]:
+          - /url: "#kunjungi"
+      - img "Suasana dapur dan interior hangat Koffie Home" [ref=e148]
+    - generic [ref=e150]:
+      - heading "Kunjungi Kami" [level=2] [ref=e151]
+      - generic [ref=e152]:
+        - paragraph [ref=e153]: Jl. Moch. Kahfi II No. 3, Ciganjur, Jagakarsa, Jakarta Selatan 12630
+        - link "Buka di Peta" [ref=e154] [cursor=pointer]:
+          - /url: https://maps.google.com/?q=Koffie+Home+Jagakarsa
+      - generic [ref=e155]:
+        - figure "Ruang Utama Interior hangat bernuansa kayu, tenang untuk kerja & baca." [ref=e156]:
+          - img "Ruang utama Koffie Home Jagakarsa" [ref=e158]
+          - generic [ref=e159]:
+            - paragraph [ref=e160]: Ruang Utama
+            - paragraph [ref=e161]: Interior hangat bernuansa kayu, tenang untuk kerja & baca.
+        - figure "Area Ngopi Cahaya alami dari jendela besar, cocok buat santai." [ref=e162]:
+          - img "Area duduk Koffie Home" [ref=e164]
+          - generic [ref=e165]:
+            - paragraph [ref=e166]: Area Ngopi
+            - paragraph [ref=e167]: Cahaya alami dari jendela besar, cocok buat santai.
+        - figure "Sudut Favorit Spot nyaman untuk nongkrong sore bareng teman." [ref=e168]:
+          - img "Sudut favorit Koffie Home" [ref=e170]
+          - generic [ref=e171]:
+            - paragraph [ref=e172]: Sudut Favorit
+            - paragraph [ref=e173]: Spot nyaman untuk nongkrong sore bareng teman.
+        - figure "Meja Bar Dekat barista, lihat langsung kopi diracik." [ref=e174]:
+          - img "Meja bar Koffie Home" [ref=e176]
+          - generic [ref=e177]:
+            - paragraph [ref=e178]: Meja Bar
+            - paragraph [ref=e179]: Dekat barista, lihat langsung kopi diracik.
+    - generic [ref=e181]:
+      - heading "Pertanyaan Umum" [level=2] [ref=e182]
+      - generic [ref=e183]:
+        - generic [ref=e184]:
+          - button "Di mana lokasi Koffie Home?" [expanded] [ref=e185]:
+            - generic [ref=e186]: Di mana lokasi Koffie Home?
+            - generic [ref=e187]: +
+          - paragraph [ref=e189]: Kami berada di Jl. Moch. Kahfi II No. 3, Ciganjur, Jagakarsa, Jakarta Selatan 12630.
+        - button "Jam berapa Koffie Home buka?" [ref=e191]:
+          - generic [ref=e192]: Jam berapa Koffie Home buka?
+          - generic [ref=e193]: +
+        - button "Apakah menerima pesan-antar?" [ref=e195]:
+          - generic [ref=e196]: Apakah menerima pesan-antar?
+          - generic [ref=e197]: +
+        - button "Bisakah memesan tempat untuk acara?" [ref=e199]:
+          - generic [ref=e200]: Bisakah memesan tempat untuk acara?
+          - generic [ref=e201]: +
+        - button "Apa menu andalannya?" [ref=e203]:
+          - generic [ref=e204]: Apa menu andalannya?
+          - generic [ref=e205]: +
+        - button "Apakah tersedia menu makanan?" [ref=e207]:
+          - generic [ref=e208]: Apakah tersedia menu makanan?
+          - generic [ref=e209]: +
+  - contentinfo [ref=e210]:
+    - generic [ref=e211]:
+      - generic [ref=e212]:
+        - img "Logo Koffie Home" [ref=e213]
+        - paragraph [ref=e214]: Koffie Home — Coffee & Kitchen
+      - generic [ref=e215]:
+        - heading "Kunjungi" [level=3] [ref=e216]
+        - paragraph [ref=e217]: Jl. Moch. Kahfi II No. 3, Ciganjur, Jagakarsa, Jakarta Selatan 12630
+        - paragraph [ref=e218]: Sen–Kam 09.00–22.00 · Jum 09.00–11.30 & 13.30–23.00 · Sab–Min 09.00–23.00 WIB
+      - generic [ref=e219]:
+        - heading "Terhubung" [level=3] [ref=e220]
+        - link "Hubungi via WhatsApp" [ref=e221] [cursor=pointer]:
+          - /url: https://wa.me/6282288882084
+        - generic [ref=e222]:
+          - link "Instagram" [ref=e223] [cursor=pointer]:
+            - /url: https://www.instagram.com/koffiehome/
+          - link "Facebook" [ref=e224] [cursor=pointer]:
+            - /url: https://www.facebook.com/koffiehomeID/
+    - paragraph [ref=e225]: © 2026 Koffie Home. Seluruh hak cipta dilindungi.

@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { shops } from "@/lib/content";
+import { shops, contact } from "@/lib/content";
 
 export default function Shops() {
   return (
@@ -11,6 +11,19 @@ export default function Shops() {
         <h2 className="font-display text-4xl font-extrabold text-[var(--color-forest)] sm:text-5xl">
           Kunjungi Kami
         </h2>
+        <div className="mt-4 flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
+          <p className="max-w-lg text-[var(--color-ink)]/80">
+            {contact.address}
+          </p>
+          <a
+            href={contact.maps}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex w-fit rounded-full bg-[var(--color-forest)] px-5 py-2 text-sm font-semibold text-[var(--color-cream)] transition hover:bg-[var(--color-forest-deep)]"
+          >
+            Buka di Peta
+          </a>
+        </div>
         <div className="mt-10 flex gap-5 overflow-x-auto pb-4">
           {shops.map((shop, i) => (
             <motion.figure

@@ -1,0 +1,4 @@
+[      39ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3100/_next/static/chunks/0tsvntcufk-mv.css:0
+[      79ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3100/_next/static/chunks/28tq6td0gckt-.js:0
+[      80ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3100/_next/static/chunks/42spd9_2z3ywz.js:0
+[     180ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3100/favicon.ico:0

@@ -15,25 +15,27 @@ export const navLinks = [
 
 export const hero = {
   headline: "Waktunya Ngopi",
-  hashtags: ["#KopiNusantara", "#NgopiSantai", "#FreshRoast", "#CoffeeAndKitchen"],
+  hashtags: ["#KoffieHome", "#Jagakarsa", "#KopiAren", "#CoffeeAndKitchen"],
   paragraph:
-    "Koffie Home menyeduh kopi specialty dari biji pilihan Nusantara dan menyajikan hidangan dapur yang menghangatkan. Setiap cangkir dibuat segar, penuh cerita.",
-  ctaLabel: "Mulai Pesan",
+    "Koffie Home di Jagakarsa, Jakarta Selatan — rumah kedua untuk ngopi dengan Kopi Aren House Blend racikan sendiri dan hidangan dapur ala rumahan. Suasana tenang, hangat, cocok untuk kerja maupun santai.",
+  ctaLabel: "Lihat Menu",
   ctaHref: "#menu",
   photo: {
     src: "/images/hero.jpg",
     alt: "Segelas kopi susu dingin di atas meja kafe",
   },
-  badgeText: ["KOFFIE HOME", "COFFEE & KITCHEN", "EST. 2020"],
+  badgeText: ["KOFFIE HOME", "COFFEE & KITCHEN", "JAGAKARSA"],
 };
 
 export const marqueeItems = [
-  "Kopi Susu Gula Aren",
-  "Es Kopi Signature",
-  "Matcha Latte",
-  "Nasi Goreng Kampung",
-  "Croissant Butter",
-  "Cold Brew",
+  "Kopi Aren House Blend",
+  "Nasi Goreng Kambing",
+  "Croffle",
+  "Piccolo",
+  "Carbonara",
+  "Manual Brew",
+  "Nasi Ayam Kecombrang",
+  "Chicken Wings",
 ];
 
 export type MenuItem = {
@@ -49,28 +51,30 @@ export type MenuCategory = {
   items: MenuItem[];
 };
 
+// Nama menu berdasarkan menu asli Koffie Home Jagakarsa.
+// Harga adalah estimasi dalam kisaran Rp25.000–90.000 (harga per-item tidak dipublikasikan resmi).
 export const menuCategories: MenuCategory[] = [
   {
     id: "signature",
     name: "Signature",
     items: [
       {
-        name: "Es Kopi Signature",
-        description: "Racikan khas Koffie Home dengan gula aren dan susu segar.",
-        price: 26000,
-        image: { src: "/images/signature-eskopi.jpg", alt: "Es kopi signature dengan gula aren" },
+        name: "Kopi Aren House Blend",
+        description: "Racikan khas Koffie Home: blend arabika & robusta dengan gula aren dan susu segar.",
+        price: 28000,
+        image: { src: "/images/signature-eskopi.jpg", alt: "Es kopi aren house blend" },
       },
       {
-        name: "Kopi Susu Gula Aren",
-        description: "Perpaduan espresso, susu segar, dan gula aren pilihan.",
-        price: 25000,
-        image: { src: "/images/kopisusu.jpg", alt: "Segelas kopi susu gula aren" },
+        name: "Malvern",
+        description: "Signature milk coffee bertekstur lembut dengan sentuhan manis seimbang.",
+        price: 32000,
+        image: { src: "/images/kopisusu.jpg", alt: "Segelas signature milk coffee Malvern" },
       },
       {
-        name: "Cold Brew Botolan",
-        description: "Kopi seduh dingin 12 jam, ringan dan menyegarkan.",
-        price: 30000,
-        image: { src: "/images/coldbrew.jpg", alt: "Cold brew dalam botol" },
+        name: "Home",
+        description: "Kopi signature andalan, karakter bold dan smooth khas Koffie Home.",
+        price: 35000,
+        image: { src: "/images/coldbrew.jpg", alt: "Signature coffee Home dalam gelas" },
       },
     ],
   },
@@ -79,22 +83,22 @@ export const menuCategories: MenuCategory[] = [
     name: "Kopi",
     items: [
       {
+        name: "Piccolo",
+        description: "Ristretto padat dengan sedikit steamed milk, intens dan creamy.",
+        price: 30000,
+        image: { src: "/images/cappuccino.jpg", alt: "Secangkir piccolo latte" },
+      },
+      {
+        name: "Manual Brew (V60)",
+        description: "Seduh manual dari biji pilihan, bersih dengan aroma yang menonjol.",
+        price: 35000,
+        image: { src: "/images/americano.jpg", alt: "Kopi manual brew V60" },
+      },
+      {
         name: "Espresso",
-        description: "Espresso murni dari biji arabika pilihan.",
-        price: 20000,
-        image: { src: "/images/espresso.jpg", alt: "Secangkir espresso" },
-      },
-      {
-        name: "Cappuccino",
-        description: "Espresso dengan foam susu lembut bertekstur.",
-        price: 28000,
-        image: { src: "/images/cappuccino.jpg", alt: "Secangkir cappuccino dengan latte art" },
-      },
-      {
-        name: "Americano",
-        description: "Espresso yang dilarutkan dengan air panas, hitam dan bersih.",
+        description: "Espresso murni dari house blend, pekat dan beraroma.",
         price: 22000,
-        image: { src: "/images/americano.jpg", alt: "Secangkir americano hitam" },
+        image: { src: "/images/espresso.jpg", alt: "Secangkir espresso" },
       },
     ],
   },
@@ -104,21 +108,21 @@ export const menuCategories: MenuCategory[] = [
     items: [
       {
         name: "Matcha Latte",
-        description: "Matcha premium dengan susu segar.",
-        price: 27000,
+        description: "Matcha premium dengan susu segar, lembut dan menyegarkan.",
+        price: 33000,
         image: { src: "/images/matcha.jpg", alt: "Segelas matcha latte" },
       },
       {
-        name: "Cokelat Panas",
-        description: "Cokelat Belgia kental yang menghangatkan.",
-        price: 24000,
-        image: { src: "/images/cokelat.jpg", alt: "Secangkir cokelat panas" },
+        name: "Cokelat",
+        description: "Cokelat kental yang menghangatkan, tersedia panas atau dingin.",
+        price: 30000,
+        image: { src: "/images/cokelat.jpg", alt: "Secangkir cokelat" },
       },
       {
-        name: "Es Teh Leci",
-        description: "Teh segar dengan leci manis, dingin dan menyegarkan.",
-        price: 21000,
-        image: { src: "/images/esteh.jpg", alt: "Es teh leci dengan es batu" },
+        name: "Es Teh",
+        description: "Teh seduh segar yang dingin dan menyegarkan.",
+        price: 22000,
+        image: { src: "/images/esteh.jpg", alt: "Es teh dengan es batu" },
       },
     ],
   },
@@ -127,45 +131,45 @@ export const menuCategories: MenuCategory[] = [
     name: "Makanan",
     items: [
       {
-        name: "Nasi Goreng Kampung",
-        description: "Nasi goreng khas dengan telur, ayam suwir, dan kerupuk.",
-        price: 32000,
-        image: { src: "/images/nasgor.jpg", alt: "Sepiring nasi goreng kampung" },
+        name: "Nasi Goreng Kambing",
+        description: "Nasi basmati dengan kambing gurih dan rempah yang harum — menu andalan.",
+        price: 55000,
+        image: { src: "/images/nasgor.jpg", alt: "Sepiring nasi goreng kambing basmati" },
       },
       {
-        name: "Mie Goreng Spesial",
-        description: "Mie goreng dengan sayuran segar dan topping telur mata sapi.",
-        price: 30000,
-        image: { src: "/images/miegoreng.jpg", alt: "Sepiring mie goreng spesial" },
+        name: "Nasi Ayam Kecombrang",
+        description: "Nasi dengan ayam dan aroma khas kecombrang yang segar.",
+        price: 48000,
+        image: { src: "/images/ayamgeprek.jpg", alt: "Nasi ayam kecombrang" },
       },
       {
-        name: "Ayam Geprek Sambal Matah",
-        description: "Ayam goreng renyah dengan sambal matah pedas segar.",
-        price: 35000,
-        image: { src: "/images/ayamgeprek.jpg", alt: "Ayam geprek dengan sambal matah" },
+        name: "Carbonara Pasta & Rice",
+        description: "Pasta carbonara creamy, bisa dipadu dengan nasi sesuai selera.",
+        price: 58000,
+        image: { src: "/images/miegoreng.jpg", alt: "Sepiring carbonara pasta" },
       },
     ],
   },
   {
-    id: "pastry",
-    name: "Pastry",
+    id: "dessert",
+    name: "Dessert",
     items: [
       {
-        name: "Croissant Butter",
-        description: "Croissant renyah dengan lapisan mentega premium.",
-        price: 18000,
-        image: { src: "/images/croissant.jpg", alt: "Croissant butter di atas piring" },
+        name: "Croffle",
+        description: "Croissant-waffle renyah dengan topping manis — bikin nagih.",
+        price: 33000,
+        image: { src: "/images/croissant.jpg", alt: "Croffle dengan topping manis" },
       },
       {
         name: "Banana Bread",
         description: "Roti pisang lembut dengan taburan kenari.",
-        price: 20000,
+        price: 30000,
         image: { src: "/images/bananabread.jpg", alt: "Irisan banana bread" },
       },
       {
         name: "Cinnamon Roll",
         description: "Roti gulung kayu manis dengan glaze manis.",
-        price: 22000,
+        price: 32000,
         image: { src: "/images/cinnamonroll.jpg", alt: "Cinnamon roll dengan glaze" },
       },
     ],
@@ -176,35 +180,35 @@ export type FeaturedProduct = MenuItem & { rating: number; reviews: number };
 
 export const featured: FeaturedProduct[] = [
   {
-    name: "Kopi Susu Gula Aren",
+    name: "Kopi Aren House Blend",
     description: "Menu paling dicari, manis pas dan creamy.",
-    price: 25000,
-    image: { src: "/images/kopisusu.jpg", alt: "Segelas kopi susu gula aren" },
+    price: 28000,
+    image: { src: "/images/signature-eskopi.jpg", alt: "Es kopi aren house blend" },
     rating: 4.9,
     reviews: 2540,
   },
   {
-    name: "Matcha Latte",
-    description: "Matcha premium yang lembut dan menyegarkan.",
-    price: 27000,
-    image: { src: "/images/matcha.jpg", alt: "Segelas matcha latte" },
+    name: "Nasi Goreng Kambing",
+    description: "Nasi basmati gurih dengan kambing berempah — andalan dapur.",
+    price: 55000,
+    image: { src: "/images/nasgor.jpg", alt: "Sepiring nasi goreng kambing" },
     rating: 4.8,
     reviews: 1320,
   },
   {
-    name: "Nasi Goreng Kampung",
-    description: "Favorit dapur dengan cita rasa rumahan.",
-    price: 32000,
-    image: { src: "/images/nasgor.jpg", alt: "Sepiring nasi goreng kampung" },
-    rating: 4.7,
+    name: "Croffle",
+    description: "Croissant-waffle renyah yang bikin balik lagi.",
+    price: 33000,
+    image: { src: "/images/croissant.jpg", alt: "Croffle dengan topping manis" },
+    rating: 4.9,
     reviews: 980,
   },
 ];
 
 export const bestCoffee = {
   eyebrow: "Gunakan",
-  heading: "Kopi Terbaik",
-  body: "Biji arabika premium, di-roasting segar setiap minggu, dan diracik dengan rempah pilihan untuk cita rasa yang tak terlupakan.",
+  heading: "Kopi Aren House Blend",
+  body: "Blend arabika & robusta racikan sendiri, dipadu gula aren untuk karakter manis-legit khas Koffie Home. Diseduh segar setiap gelas.",
   ctaLabel: "Selengkapnya",
   ctaHref: "#kunjungi",
   photo: {
@@ -215,26 +219,28 @@ export const bestCoffee = {
 
 export type Shop = { name: string; caption: string; photo: ImageAsset };
 
+// Koffie Home hanya punya satu lokasi di Jagakarsa — bagian ini menampilkan
+// suasana beberapa sudut kafe.
 export const shops: Shop[] = [
   {
-    name: "Koffie Home Kenanga",
-    caption: "Outlet utama dengan ruang kerja nyaman.",
-    photo: { src: "/images/shop-1.jpg", alt: "Tampak depan outlet Koffie Home Kenanga" },
+    name: "Ruang Utama",
+    caption: "Interior hangat bernuansa kayu, tenang untuk kerja & baca.",
+    photo: { src: "/images/shop-1.jpg", alt: "Ruang utama Koffie Home Jagakarsa" },
   },
   {
-    name: "Koffie Home Dago",
-    caption: "Suasana asri dengan area outdoor.",
-    photo: { src: "/images/shop-2.jpg", alt: "Interior outlet Koffie Home Dago" },
+    name: "Area Ngopi",
+    caption: "Cahaya alami dari jendela besar, cocok buat santai.",
+    photo: { src: "/images/shop-2.jpg", alt: "Area duduk Koffie Home" },
   },
   {
-    name: "Koffie Home Riau",
-    caption: "Spot favorit untuk nongkrong sore.",
-    photo: { src: "/images/shop-3.jpg", alt: "Storefront outlet Koffie Home Riau" },
+    name: "Sudut Favorit",
+    caption: "Spot nyaman untuk nongkrong sore bareng teman.",
+    photo: { src: "/images/shop-3.jpg", alt: "Sudut favorit Koffie Home" },
   },
   {
-    name: "Koffie Home Braga",
-    caption: "Nuansa klasik di pusat kota.",
-    photo: { src: "/images/shop-4.jpg", alt: "Interior klasik outlet Koffie Home Braga" },
+    name: "Meja Bar",
+    caption: "Dekat barista, lihat langsung kopi diracik.",
+    photo: { src: "/images/shop-4.jpg", alt: "Meja bar Koffie Home" },
   },
 ];
 
@@ -242,8 +248,14 @@ export type Faq = { question: string; answer: string };
 
 export const faqs: Faq[] = [
   {
+    question: "Di mana lokasi Koffie Home?",
+    answer:
+      "Kami berada di Jl. Moch. Kahfi II No. 3, Ciganjur, Jagakarsa, Jakarta Selatan 12630.",
+  },
+  {
     question: "Jam berapa Koffie Home buka?",
-    answer: "Kami buka setiap hari pukul 08.00 hingga 22.00 WIB di seluruh outlet.",
+    answer:
+      "Senin–Kamis 09.00–22.00, Jumat 09.00–11.30 & 13.30–23.00 (jeda salat Jumat), serta Sabtu–Minggu 09.00–23.00 WIB.",
   },
   {
     question: "Apakah menerima pesan-antar?",
@@ -254,20 +266,24 @@ export const faqs: Faq[] = [
     answer: "Tentu. Hubungi kami via WhatsApp untuk reservasi area atau acara privat.",
   },
   {
-    question: "Dari mana biji kopi berasal?",
-    answer: "Seluruh biji kopi kami bersumber dari petani lokal Nusantara dan di-roasting segar.",
+    question: "Apa menu andalannya?",
+    answer:
+      "Kopi Aren House Blend dan Nasi Goreng Kambing basmati jadi favorit, plus Croffle untuk dessert.",
   },
   {
     question: "Apakah tersedia menu makanan?",
-    answer: "Ya, sebagai Coffee & Kitchen kami menyajikan beragam hidangan dari nasi goreng hingga pastry.",
+    answer: "Ya, sebagai Coffee & Kitchen kami menyajikan beragam hidangan dapur, dari nasi hingga pasta.",
   },
 ];
 
 export const contact = {
-  address: "Jl. Kenanga No. 12, Bandung, Jawa Barat",
-  hours: "Setiap hari, 08.00 - 22.00 WIB",
-  whatsapp: "https://wa.me/6281234567890",
+  address: "Jl. Moch. Kahfi II No. 3, Ciganjur, Jagakarsa, Jakarta Selatan 12630",
+  hours: "Sen–Kam 09.00–22.00 · Jum 09.00–11.30 & 13.30–23.00 · Sab–Min 09.00–23.00 WIB",
+  whatsapp: "https://wa.me/6282288882084",
   whatsappLabel: "Hubungi via WhatsApp",
+  instagram: "https://www.instagram.com/koffiehome/",
+  facebook: "https://www.facebook.com/koffiehomeID/",
+  maps: "https://maps.google.com/?q=Koffie+Home+Jagakarsa",
 };
 
 export function formatPrice(price: number): string {
