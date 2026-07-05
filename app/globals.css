@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+:root {
+  --color-coffee-dark: #3b2419;
+  --color-coffee-brown: #6f4e37;
+  --color-cream: #f5efe6;
+  --color-accent: #c1611a;
+}
+
+body {
+  background-color: var(--color-cream);
+  color: var(--color-coffee-dark);
+}
