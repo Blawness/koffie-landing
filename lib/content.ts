@@ -7,10 +7,10 @@ export const brand = {
 };
 
 export const navLinks = [
-  { label: "Menu", href: "#menu" },
-  { label: "Unggulan", href: "#unggulan" },
-  { label: "Kunjungi", href: "#kunjungi" },
-  { label: "FAQ", href: "#faq" },
+  { label: "Menu", href: "/menu" },
+  { label: "Unggulan", href: "/#unggulan" },
+  { label: "Kunjungi", href: "/#kunjungi" },
+  { label: "FAQ", href: "/#faq" },
 ];
 
 export const hero = {
