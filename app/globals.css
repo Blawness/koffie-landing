@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   --color-coffee-dark: #3b2419;
   --color-coffee-brown: #6f4e37;

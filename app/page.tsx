@@ -1,7 +1,21 @@
+import Header from "@/components/Header";
+import Hero from "@/components/sections/Hero";
+import Menu from "@/components/sections/Menu";
+import About from "@/components/sections/About";
+import Contact from "@/components/sections/Contact";
+import Footer from "@/components/Footer";
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen items-center justify-center">
-      <h1 className="text-3xl font-bold">Koffie Home</h1>
-    </main>
+    <>
+      <Header />
+      <main>
+        <Hero />
+        <Menu />
+        <About />
+        <Contact />
+      </main>
+      <Footer />
+    </>
   );
 }
