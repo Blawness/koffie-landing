@@ -5,13 +5,27 @@ html {
 }
 
 :root {
-  --color-coffee-dark: #3b2419;
-  --color-coffee-brown: #6f4e37;
-  --color-cream: #f5efe6;
-  --color-accent: #c1611a;
+  --color-forest: #123a2a;
+  --color-forest-deep: #0d2c20;
+  --color-marigold: #f2b705;
+  --color-cream: #f4ecdd;
+  --color-paper: #ffffff;
+  --color-moss: #c9d6c4;
+  --color-ink: #1b2620;
 }
 
 body {
   background-color: var(--color-cream);
-  color: var(--color-coffee-dark);
+  color: var(--color-ink);
+  font-family: var(--font-body), system-ui, sans-serif;
+}
+
+.font-display {
+  font-family: var(--font-display), system-ui, sans-serif;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
 }

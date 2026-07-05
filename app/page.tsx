@@ -1,21 +1,26 @@
 import Header from "@/components/Header";
 import Hero from "@/components/sections/Hero";
 import Menu from "@/components/sections/Menu";
-import About from "@/components/sections/About";
-import Contact from "@/components/sections/Contact";
+import Featured from "@/components/sections/Featured";
+import BestCoffee from "@/components/sections/BestCoffee";
+import Shops from "@/components/sections/Shops";
+import Faq from "@/components/sections/Faq";
 import Footer from "@/components/Footer";
+import MotionProvider from "@/components/MotionProvider";
 
 export default function Home() {
   return (
-    <>
+    <MotionProvider>
       <Header />
       <main>
         <Hero />
         <Menu />
-        <About />
-        <Contact />
+        <Featured />
+        <BestCoffee />
+        <Shops />
+        <Faq />
       </main>
       <Footer />
-    </>
+    </MotionProvider>
   );
 }
