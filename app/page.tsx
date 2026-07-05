@@ -5,6 +5,7 @@ import Featured from "@/components/sections/Featured";
 import BestCoffee from "@/components/sections/BestCoffee";
 import Shops from "@/components/sections/Shops";
 import Faq from "@/components/sections/Faq";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <Shops />
         <Faq />
       </main>
+      <Footer />
     </>
   );
 }
