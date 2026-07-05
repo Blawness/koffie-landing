@@ -6,7 +6,7 @@ import { featured } from "@/lib/content";
 
 function Stars({ rating }: { rating: number }) {
   return (
-    <div className="flex gap-0.5" aria-label={`${rating} dari 5`}>
+    <div role="img" className="flex gap-0.5" aria-label={`${rating} dari 5`}>
       {[1, 2, 3, 4, 5].map((n) => (
         <span
           key={n}

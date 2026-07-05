@@ -16,7 +16,7 @@ export default function Menu() {
         <h2 className="font-display text-4xl font-extrabold text-[var(--color-forest)] sm:text-5xl">
           Jelajahi Menu
         </h2>
-        <span className="font-display text-2xl font-bold text-[var(--color-forest)]/40">
+        <span className="font-display text-2xl font-bold text-[var(--color-forest)]/60">
           /2025
         </span>
       </div>
